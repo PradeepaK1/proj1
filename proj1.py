@@ -265,7 +265,6 @@ def print_prediction(file_name):
 
 # Import necessary libraries 
 from pydub import AudioSegment 
-import speech_recognition as sr 
   
 # Input audio file to be sliced 
 from glob import glob
