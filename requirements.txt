@@ -6,6 +6,5 @@ tensorflow==2.1.0
 pydub==0.24.1
 librosa==0.7.2
 Keras==2.4.3
-SpeechRecognition==3.8.1
 ipython==7.16.1
 scikit_learn==0.23.1
