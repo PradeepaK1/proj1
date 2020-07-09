@@ -5,7 +5,6 @@ scipy==1.4.1
 tensorflow==2.1.0
 pydub==0.24.1
 librosa==0.7.2
-matplotlib==3.1.2
 Keras==2.4.3
 SpeechRecognition==3.8.1
 ipython==7.16.1
