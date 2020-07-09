@@ -4,7 +4,6 @@ ipd.Audio('notes/fold1/DA.1.wav')
 import IPython.display as ipd
 import librosa
 import librosa.display
-import matplotlib.pyplot as plt
 filename = 'notes/fold1/DA.1.wav'
 data,sample_rate = librosa.load(filename)
 _ = librosa.display.waveplot(data,sr=sample_rate)
@@ -128,7 +127,6 @@ filename = 'notes/fold5/GA.wav'
 
 librosa_audio, librosa_sample_rate = librosa.load(filename) 
 scipy_sample_rate, scipy_audio = wav.read(filename) 
-import matplotlib.pyplot as plt
 mfccs = librosa.feature.mfcc(y=librosa_audio, sr=librosa_sample_rate, n_mfcc=40)
 import librosa.display
 
