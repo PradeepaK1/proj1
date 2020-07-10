@@ -2,7 +2,7 @@ numpy==1.17.0
 pandas==0.25.3
 streamlit==0.62.1
 scipy==1.4.1
-tensorflow==1.15
+tensorflow==1.7.0
 pydub==0.24.1
 librosa==0.7.2
 Keras==2.4.3
